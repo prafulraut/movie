@@ -47,7 +47,7 @@
   </div>
   <div class="display">
     <div class="grid-container"
-      *ngFor="let movie of mov| filter:searchTerm | paginate: { itemsPerPage: 4, currentPage: cp };trackBy:trackByfn">
+      *ngFor="let movie of mov| filter:searchTerm | paginate: { itemsPerPage: 4, currentPage: cp };">
       <div><a [routerLink]="['moviesdata/moviedash',movie.title]"> <img [src]="movie.posterurl" alt="" height="300"
             width="250">
         </a></div>
