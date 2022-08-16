@@ -8,21 +8,12 @@ import { ServiceMethodService } from 'src/app/servicesjson/services/service-meth
 })
 export class CinemaDataComponent implements OnInit {
   mov: any;
-  condition: boolean = true;
   cp: number = 1;
-  title = 'angular-pdf-viewer'
   searchTerm: any;
   constructor(private readonly servicemethodservice: ServiceMethodService) {
     this.mov = this.servicemethodservice.movies
   }
-  showmore() {
-    this.mov = this.servicemethodservice.movies
-    this.condition = false
-  }
-  trackByfn(index: any, item: any) {
-    return item.movies;
-  }
-
+  
   ngOnInit(): void {
   }
 

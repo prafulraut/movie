@@ -22,7 +22,6 @@ export class NevigateCinemaComponent implements OnInit {
 
   }
   Back(){
-    //   this.router.nevigate("/..")
     this.r.navigate(['/moviesdata']);
   }  
 
