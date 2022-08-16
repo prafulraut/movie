@@ -27,6 +27,5 @@ export class CinemaDataComponent implements OnInit {
   }
 
 }
-// movies: any;
 
 

@@ -6,9 +6,4 @@ import * as movieData from '../../../assets/json/movie.json';
 export class ServiceMethodService {
   movies = (movieData as any).default;
   constructor() { }
-  // wish(){
-  //   console.log("hello");
-  //   return "hello";
-    
-  // }
 }
