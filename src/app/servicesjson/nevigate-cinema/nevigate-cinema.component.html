@@ -1,0 +1,38 @@
+<body>
+    <div class="responsive ">
+        <button class="btn-lg btn-dark" (click)="Back()">Back</button>
+        <h2>{{productID}}</h2>
+        <div class="row " *ngFor="let movie of mov">
+            <ng-container *ngIf="movie.title===productID">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3"><a> <img [src]="movie.posterurl" alt="" height="400" width="300"> </a></div>
+                <div class="col-lg-7">
+
+                    <h1> {{data.MOVIE_NAME}}:-<span>{{movie.title}}</span></h1>
+                    <h1> {{data.YEAR}}:-<span>{{movie.year}}</span></h1>
+                    <h1> {{data.RATINGS}}:-<span>{{movie.ratings}}</span></h1>
+
+                    <h1> {{data.GENERES}}:-<span>{{movie.genres}}</span></h1>
+
+                    <h1> {{data.CONTENTRATING}}:- <span>{{movie.contentRating}}</span></h1>
+
+                    <h1> {{data.DURATION}}:-<span>{{movie.duration}}</span> </h1>
+
+                    <h1>{{data.RELEASEDATE}}:- <span>{{movie.releaseDate}}</span></h1>
+
+                    <h1> {{data.AVERAGERATING}}:-<span>{{movie.averageRating}}</span> </h1>
+
+                    <h1> {{data.ORIGINALTITLE}}:- <span>{{movie.originalTitle}}</span></h1>
+
+                    <h1> {{data.STORYLINE}}:- <span>{{movie.storyline}}</span></h1>
+
+                    <h1> {{data.ACTORS}}:- <span>{{movie.actors}}</span></h1>
+
+                    <h1>{{data.IMDBRATING}}:- <span>{{movie.imdbRating}}</span></h1>
+                </div>
+                <div class="col-lg-1"></div>
+            </ng-container>
+            <br>
+        </div>
+    </div>
+</body>
