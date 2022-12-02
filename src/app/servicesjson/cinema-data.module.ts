@@ -8,14 +8,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 
-const routes : Routes=[
-{ path: "", redirectTo: "moviesdata", pathMatch: "full" },
-{ path: "", component: CinemaDataComponent },
-{ path: "moviesdata/moviedash/:title", component: NevigateCinemaComponent },]
+// const routes : Routes=[
+// // { path: "", redirectTo: "moviesdata", pathMatch: "full" },
+// // { path: "", component: CinemaDataComponent },
+// // { path: "moviesdata/moviedash/:title", component: NevigateCinemaComponent },]
 
 @NgModule({
   declarations: [CinemaDataComponent, NevigateCinemaComponent],
-  imports: [RouterModule.forChild(routes), CommonModule,NgxPaginationModule,Ng2SearchPipeModule,FormsModule,],
+  imports: [ CommonModule,NgxPaginationModule,Ng2SearchPipeModule,FormsModule,],
   exports: [RouterModule],
 
 })

@@ -7,10 +7,14 @@ import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { CinemaDataComponent } from './servicesjson/cinema-data/cinema-data.component';
+// import { MoviesComponent } from './movieData/movies/movies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    // MoviesComponent,
+    CinemaDataComponent
   
   ],
   imports: [
