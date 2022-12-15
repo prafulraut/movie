@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-    background-image: url(../../../assets/images/bacground.jpg);
+    /* background-image: url(../../../../assets/images/bacground.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;

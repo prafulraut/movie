@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
-import * as movieData from '../../../assets/json/movie.json';
+import * as vehicalData from '../../../assets/json/vehical.json';
+
 @Injectable({
   providedIn: 'root'
 })
 export class ServiceMethodService {
-  movies = (movieData as any).default;
+  vehical = (vehicalData as any).default;
   constructor() { }
 }

@@ -1,20 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CinemaDataComponent } from './cinema-data.component';
+import { DetailPageComponent } from './detail-page.component';
 
-describe('CinemaDataComponent', () => {
-  let component: CinemaDataComponent;
-  let fixture: ComponentFixture<CinemaDataComponent>;
+describe('DetailPageComponent', () => {
+  let component: DetailPageComponent;
+  let fixture: ComponentFixture<DetailPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CinemaDataComponent ]
+      declarations: [ DetailPageComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(CinemaDataComponent);
+    fixture = TestBed.createComponent(DetailPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

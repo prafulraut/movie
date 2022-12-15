@@ -7,15 +7,15 @@ import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { CinemaDataComponent } from './servicesjson/cinema-data/cinema-data.component';
-// import { MoviesComponent } from './movieData/movies/movies.component';
+import { VehicalModule } from './servicesjson/vehical.module';
+import { HomePageComponent } from './servicesjson/HomePage/home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // MoviesComponent,
-    CinemaDataComponent
-  
+    HomePageComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
@@ -25,6 +25,8 @@ import { CinemaDataComponent } from './servicesjson/cinema-data/cinema-data.comp
     HttpClientModule,
     NgxPaginationModule,
     Ng2SearchPipeModule,
+    ReactiveFormsModule
+    // VehicalModule
   
     
   ],

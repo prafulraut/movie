@@ -1,0 +1,25 @@
+[
+  {
+      "vehicalType": "Electric",
+      "title": "Audi",
+      "year": "2023",
+      "Rating": 8.9,
+      "DisplayText": "$15",
+      "posterurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIsnewkUBT_uDrqbKQVEE6i8_Qq80utmfhQjmo-JEuyj9Vk6x"
+  },
+  {
+      "vehicalType": "Electric",
+      "title": "Bmw",
+      "year": "2022",
+      "Rating": 8.9,
+      "DisplayText": "$15",
+      "posterurl": "https://pictures.dealer.com/s/sonicbmwnashville/0690/a5e21437ed88afe6e079f66753ab2725x.jpg?impolicy=resize&w=414"
+  },
+  {
+      "vehicalType": "Fuel",
+      "title": "Cadillac",
+      "year": "2024",
+      "Rating": 8.9,
+      "posterurl": "https://as1.ftcdn.net/v2/jpg/02/52/37/18/1000_F_252371806_rV8L7d2tnTASRe0vIa02hQ3sPItNrgUY.jpg"
+  }
+]

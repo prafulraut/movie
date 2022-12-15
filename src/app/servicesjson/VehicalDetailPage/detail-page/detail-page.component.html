@@ -1,0 +1,22 @@
+<body>
+    <div class="responsive ">
+        <button class="btn-lg btn-dark" (click)="Back()">Back</button>
+        <h2>{{productID}}</h2>
+        <div class="row " *ngFor="let vehicalData of vehicalDetail">
+            <ng-container *ngIf="vehicalData.title===productID">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3"><a> <img [src]="vehicalData.posterurl" alt="" height="400" width="300"> </a></div>
+                <div class="col-lg-7">
+
+                    <h1>{{vehicalData.title}}</h1>
+                    <h1>{{vehicalData.year}}</h1>
+                    <h1>{{vehicalData.ratings}}</h1>
+
+                  
+                </div>
+                <div class="col-lg-1"></div>
+            </ng-container>
+            <br>
+        </div>
+    </div>
+</body>
